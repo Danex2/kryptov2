@@ -4,6 +4,9 @@ function Links() {
   return (
     <div className="sixteen wide column">
       <div className="ui secondary big menu">
+        <a href="#" className="item active">
+          Krypto
+        </a>
         <a
           href="https://github.com/Danex2/kryptov2"
           target="_blank"

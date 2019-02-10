@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./css/app.scss";
 import Home from "./components/Home";
-import CoinDetails from "./components/CoinDetails";
+import CoinDetailsContainer from "./containers/CoinDetailsContainer";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/coin/:id" component={CoinDetails} />
+          <Route path="/coin/:id" component={CoinDetailsContainer} />
         </Switch>
       </BrowserRouter>
     );
