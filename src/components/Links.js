@@ -5,7 +5,7 @@ function Links() {
     <div className="sixteen wide column">
       <div className="ui secondary big menu">
         <a
-          href="https://github.com/Danex2"
+          href="https://github.com/Danex2/kryptov2"
           target="_blank"
           rel="noopener noreferrer"
           className="item"
